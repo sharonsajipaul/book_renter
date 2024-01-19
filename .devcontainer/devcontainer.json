@@ -1,0 +1,13 @@
+{
+    "name": "book_renter_dev",
+    "dockerComposeFile": "../docker-compose.yml",
+    "service": "dev",
+    "runServices": ["dev", "db", "db_gui"],
+    "workspaceFolder": "/srv",
+    "initializeCommand": "echo 'Started dev container...'",
+    "customizations": {
+        "vscode": {
+            "extensions": ["dbaeumer.vscode-eslint", "esbenp.prettier-vscode"]
+        }
+    }
+}
