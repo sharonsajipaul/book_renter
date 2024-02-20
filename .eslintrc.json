@@ -1,6 +1,7 @@
 {
     "extends": ["next/core-web-vitals", "prettier"],
     "rules": {
-        "camelcase": "error"
+        "camelcase": "error",
+        "react/no-unescaped-entities": 0
     }
 }
