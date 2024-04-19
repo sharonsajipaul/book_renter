@@ -1,5 +1,3 @@
-import React from "react";
-import NavBar from "../components/navbar/navbar";
 import StoreBody from "../components/store/store_body";
 import sql from "@/lib/sql";
 import { tryPromise } from "@/lib/fp";
@@ -20,7 +18,6 @@ export default async function Store() {
 
     return (
         <div className="container flex-col">
-            <NavBar />
             <StoreBody books={books} />
         </div>
     );
